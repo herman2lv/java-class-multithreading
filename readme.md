@@ -11,7 +11,7 @@ with threads concept
 _Actions marked with **[ERROR]** should be demonstrated and explained why this way is incorrect_
 
 ### General Demo
-_package: into_
+[_package: intro_](src/com/hrm/threads/intro/IntroDemo.java)
 
 * Create Threads via Thread inheritance
 * Start Thread with run() [ERROR]
@@ -20,8 +20,8 @@ _package: into_
 * Start runnable
 * Create Thread via Runnable with Lambda syntax
 
-### Wallet Demo
-_package: datarace_
+### Data Race Demo
+[_package: datarace_](src/com/hrm/threads/datarace/DataRaceDemo.java)
 
 * Explain wallet structure
 * Start wallet modification with two threads [ERROR]
@@ -36,7 +36,7 @@ _package: datarace_
 * Make synchronized block
 
 ### Thread States Demo
-_package: state_
+[_package: state_](src/com/hrm/threads/state/StateDemo.java)
 
 * Explain new wallet structure
 * Add debug print for wail - awake
@@ -44,7 +44,7 @@ _package: state_
 * Demo both withdraw and top up
 
 ### Thread Block Demo
-_package: block_
+[_package: block_](src/com/hrm/threads/block/BlockDemo.java)
 
 * Introduce Locks
 * Show blocking situation with locks
@@ -52,7 +52,7 @@ _package: block_
 * Fix with synchronized
 
 ### Locks Demo
-_package: locks_
+[_package: locks_](src/com/hrm/threads/locks/LocksDemo.java)
 
 * Introduce read and write operations
 * Display that no need for locks while reading
@@ -64,7 +64,7 @@ _package: locks_
 * Demo with ReadWrite lock
 
 ### Java Thread-Safe Objects
-_package: stringbuffer_
+[_package: stringbuffer_](src/com/hrm/threads/stringbuffer/SBThreadsDemo.java)
 
 * Introduce concept of thread-safe stateful objects
 * Demo concurrent work with StringBuilder [ERROR]
@@ -72,7 +72,7 @@ _package: stringbuffer_
 * Demo performance loss comparing Builder and Buffer
 
 ### Race Condition Demo
-_package: racecondition_
+[_package: racecondition_](src/com/hrm/threads/racecondition/RaceConditionDemo.java)
 
 * Explain demo code use case
 * Demo race condition error
@@ -81,7 +81,7 @@ _package: racecondition_
 
 
 ### Callable and Executors
-_package: callable_
+[_package: callable_](src/com/hrm/threads/callable/CallableDemo.java)
 
 * Explain case when return value is needed
 * Introduce callable
