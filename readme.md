@@ -8,10 +8,10 @@ This repository contains examples which can help to
 explain and understand basic Java Concurrency and work
 with threads concept
 
-_Actions marked with **[ERROR]** should be demonstrated and explained why this way is incorrect_
+_Actions marked with [ERROR] should be demonstrated and explained why this way is incorrect_
 
 ### General Demo
-[_package: intro_](src/com/hrm/threads/intro/IntroDemo.java)
+[_package: intro_](/src/com/hrm/threads/intro/IntroDemo.java)
 
 * Create Threads via Thread inheritance
 * Start Thread with run() [ERROR]
@@ -21,7 +21,7 @@ _Actions marked with **[ERROR]** should be demonstrated and explained why this w
 * Create Thread via Runnable with Lambda syntax
 
 ### Data Race Demo
-[_package: datarace_](src/com/hrm/threads/datarace/DataRaceDemo.java)
+[_package: datarace_](/src/com/hrm/threads/datarace/DataRaceDemo.java)
 
 * Explain wallet structure
 * Start wallet modification with two threads [ERROR]
@@ -36,7 +36,7 @@ _Actions marked with **[ERROR]** should be demonstrated and explained why this w
 * Make synchronized block
 
 ### Thread States Demo
-[_package: state_](src/com/hrm/threads/state/StateDemo.java)
+[_package: state_](/src/com/hrm/threads/state/StateDemo.java)
 
 * Explain new wallet structure
 * Add debug print for wail - awake
@@ -44,7 +44,7 @@ _Actions marked with **[ERROR]** should be demonstrated and explained why this w
 * Demo both withdraw and top up
 
 ### Thread Block Demo
-[_package: block_](src/com/hrm/threads/block/BlockDemo.java)
+[_package: block_](/src/com/hrm/threads/block/BlockDemo.java)
 
 * Introduce Locks
 * Show blocking situation with locks
@@ -52,7 +52,7 @@ _Actions marked with **[ERROR]** should be demonstrated and explained why this w
 * Fix with synchronized
 
 ### Locks Demo
-[_package: locks_](src/com/hrm/threads/locks/LocksDemo.java)
+[_package: locks_](/src/com/hrm/threads/locks/LocksDemo.java)
 
 * Introduce read and write operations
 * Display that no need for locks while reading
@@ -64,7 +64,7 @@ _Actions marked with **[ERROR]** should be demonstrated and explained why this w
 * Demo with ReadWrite lock
 
 ### Java Thread-Safe Objects
-[_package: stringbuffer_](src/com/hrm/threads/stringbuffer/SBThreadsDemo.java)
+[_package: stringbuffer_](/src/com/hrm/threads/stringbuffer/SBThreadsDemo.java)
 
 * Introduce concept of thread-safe stateful objects
 * Demo concurrent work with StringBuilder [ERROR]
@@ -72,7 +72,7 @@ _Actions marked with **[ERROR]** should be demonstrated and explained why this w
 * Demo performance loss comparing Builder and Buffer
 
 ### Race Condition Demo
-[_package: racecondition_](src/com/hrm/threads/racecondition/RaceConditionDemo.java)
+[_package: racecondition_](/src/com/hrm/threads/racecondition/RaceConditionDemo.java)
 
 * Explain demo code use case
 * Demo race condition error
@@ -81,7 +81,7 @@ _Actions marked with **[ERROR]** should be demonstrated and explained why this w
 
 
 ### Callable and Executors
-[_package: callable_](src/com/hrm/threads/callable/CallableDemo.java)
+[_package: callable_](/src/com/hrm/threads/callable/CallableDemo.java)
 
 * Explain case when return value is needed
 * Introduce callable
